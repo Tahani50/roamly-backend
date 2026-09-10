@@ -30,7 +30,7 @@ TODO — unit and integration test instructions
 
 ## Related repositories
 
-* roamly-ios
-* roamly-flutter
-* roamly-android
+* [roamly-ios](https://github.com/Tahani50/roamly-ios) — Native iOS app built with Swift / SwiftUI
+* [roamly-flutter](https://github.com/Tahani50/roamly-flutter) — Cross-platform app built with Flutter
+* [roamly-android](https://github.com/Tahani50/roamly-android) — Native Android app built with Kotlin / Jetpack Compose
 
