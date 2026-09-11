@@ -24,7 +24,53 @@ For full details, see [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ## Getting started
 
-TODO — prerequisites, environment variables, database setup and run instructions
+Clone the repository:
+
+```bash
+git clone https://github.com/Tahani50/roamly-backend.git
+cd roamly-backend
+```
+
+Create and activate a virtual environment:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+Install the project dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the FastAPI development server:
+
+```bash
+fastapi dev app/main.py
+```
+
+Once the server is running, open:
+
+```text
+http://127.0.0.1:8000/health
+```
+
+Expected response:
+
+```json
+{
+  "status":"ok",
+  "service":"roamly-api"
+}
+```
+
+Interactive API documentation is available at:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
 
 ## API documentation
 
