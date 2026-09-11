@@ -44,6 +44,14 @@ Install the project dependencies:
 pip install -r requirements.txt
 ```
 
+Create your local environment file:
+
+```bash
+cp .env.example .env
+```
+
+Then open `.env` and replace the placeholder values with your real local configuration and API credentials.
+
 Run the FastAPI development server:
 
 ```bash
@@ -60,8 +68,9 @@ Expected response:
 
 ```json
 {
-  "status":"ok",
-  "service":"roamly-api"
+  "status": "ok",
+  "service": "roamly-api",
+  "environment":"development"
 }
 ```
 
