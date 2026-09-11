@@ -14,7 +14,13 @@ Python · FastAPI · PostgreSQL · SQLAlchemy · Alembic · Firebase Admin · Py
 
 ## Architecture
 
-TODO — project structure, database schema and layer breakdown
+Roamly Backend follows a layered architecture that separates API handling, business logic, database access, persistence models, schemas, and external integrations.
+
+The main dependency flow is:
+
+`Endpoint → Service → Repository → Model / Database`
+
+For full details, see [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ## Getting started
 
